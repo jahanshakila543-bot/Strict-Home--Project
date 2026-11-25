@@ -1,0 +1,344 @@
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+/* Global CSS end here */
+
+
+
+.Header-section{
+    width: 100%;
+    float: left;
+    background: bisque;
+}
+.Header-section .logo{
+    padding: 15px o;
+    width: 200px;
+    
+}
+.Header-section .nav{
+    padding: 15px o;
+    text-align: right;
+
+}
+.Header-section .nav ul li{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.Header-section .nav ul li a{
+    transition: 1s;
+    color:black;
+    
+}
+.Header-section .nav ul li a:hover{
+    color: #15a4fa;
+    font size: 20px;
+    padding: 10px;
+
+}
+/* Banner-section start here */
+
+.Banner-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url(../img/Banner.png) center top no-repeat;
+    background-size: cover;
+}
+.Banner-section .banner-inner{
+    padding: 80px 0;
+    text-align: center;
+}
+.Banner-section .banner-inner h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+.divider{
+    width: 40%;
+    height: 3px;
+    border: none;
+    margin: 25px auto;
+    background: #15a4fa;
+}
+.Banner-section .banner-inner p{
+     font-size: 16pxpx;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 50px;
+
+}
+.Banner-section .banner-inner .btn-info{
+    border: 1px solid #15a4fa;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 25px;
+    color: white;
+    background: transparent;
+    border-radius: 3px;
+    transition: 1s;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.Banner-section .banner-inner .btn-info:hover{
+    background: #15a4fa;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+.Banner-section .banner-inner .icon{
+    padding: 80px o 40px;
+    margin-top: 80px;
+}
+
+/* Banner-section start here */
+/* simple-section  css start here */
+
+.simple-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+.simple-section .simple-inner{
+    text-align: center;
+}
+.simple-section .simple-inner h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.simple-section .simple-inner p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 400;
+}
+/* simple-section  css end here */
+
+/* feature-section css start here */
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+.feature-section .feature-inner{
+    text-align: center;
+}
+.feature-section .feature-inner img{
+    margin-bottom: 20px;
+}
+.feature-section .feature-inner h3{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.feature-section .feature-inner p{
+    font-size: 14px;
+    color: #999;
+}
+/* feature-section css start here */
+
+/* portfolio-section css start here */
+.Portfolio-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+    
+}
+.Portfolio-section .title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.Portfolio-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.Portfolio-section .title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+
+}
+.gap{
+    margin-top: 15px;
+}
+.portfolio-inner{
+    position: relative;
+}
+.port-hover{
+    position: absolute;
+    background: rgb(25, 156, 235, 0.8);
+    width: 93.5%;
+    height: 97.5%;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+.inner-icon{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.portfolio-inner:hover .port-hover{
+    display: block;
+}
+
+
+.portfolio-inner .port-hover a{
+    margin: 0 5px;
+}
+
+/* portfolio-section css end here */
+
+/* stay-section css start here */
+.stay-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url("../img/Stay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stay-section .title{
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.stay-section .title h1{
+    font-family: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #fffefe;
+    margin-bottom: 15px;
+
+
+}
+.stay-section .title p{
+    font-family: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+
+}
+.stay-section .main-form{
+    width: 55%;
+    margin: 0 auto;
+}
+.stay-section .main-form .form-group{
+    margin: 10px 0;
+}
+.stay-section .main-form .form-group .form-control{
+    width: 95%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+}
+.col-md-8{
+    width: 66.67%;
+    float: left;
+}
+span{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.btn-primary{
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    transition: 1s;
+}
+.btn-primary:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+.text-right{
+    text-align: right;
+}
+
+/* stay-section css end here */
+
+/* slider-section css start here */
+.slider-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+
+}
+
+
+
+
+
+/* slider-section css start here */
